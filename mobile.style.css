@@ -1,0 +1,32 @@
+@media only screen and (max-width:768px){
+    header .navbar-brand{
+        padding-left: 1rem;
+    }
+    .sec-1 .row .col-md-6 .panel{
+        position: initial;
+        width: initial;
+        height: initial;
+}
+    .sec-2 .cover{
+        background-position: -25vmin -10vmin;
+    }
+    .numbers .rect{
+        width: 11rem;
+    height: 10rem;
+    }
+    .sec-3{
+        height: inherit;
+        padding: 10vmin !important;
+    } 
+    .sec-4 .team{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        margin-left: -20vmin;
+
+    }
+    .sec-4 .carousel-inner{
+        width: 24rem;
+        margin-left: -7vmin;
+    }
+}
